@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background: url(Images/@Wallpaper_4K3D\ \(1264\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.showScreen{
+    background-color: rgba(255, 255, 255, 0.373);
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 0;
+    border-radius: 20px;
+}
+
+.calc{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.708);
+    margin: 40px;
+    border-radius: 10px;
+    border-top-left-radius:40px ;
+    border-bottom-right-radius:40px ;
+
+
+}
+.button{
+    width: 80px;
+    height: 80px;
+    background-color: orange;
+    margin: 10px 10px;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 26px 0;
+}
+.not{
+    visibility: hidden;
+}
+.button:hover{
+    cursor: pointer;
+}
+.numbers{
+    background-color:black;
+}
