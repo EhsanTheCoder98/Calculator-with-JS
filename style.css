@@ -1,19 +1,16 @@
 * {
     padding: 0;
     margin: 0;
+    background-color:black;
 }
 .main {
-    background: url(Images/@Wallpaper_4K3D\ \(1264\).jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
 }
 .showScreen{
-    background-color: rgba(255, 255, 255, 0.373);
+    background-color: rgba(57, 56, 56, 0.486);
     margin-top: 20px;
     width: 250px;
     height: 50px;
@@ -24,7 +21,7 @@
 }
 
 .calc{
-    width: 500px;
+    width: 300px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: space-between;
@@ -38,14 +35,14 @@
 
 }
 .button{
-    width: 80px;
-    height: 80px;
-    background-color: orange;
-    margin: 10px 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 242, 0, 0.829);
+    margin: 10px 17px;
     border-radius: 50%;
     text-align: center;
     box-sizing: border-box;
-    padding: 26px 0;
+    padding: 10px 0;
 }
 .not{
     visibility: hidden;
@@ -57,5 +54,5 @@
     background-color:black;
 }
 .new{
-    background-color: orange;
+   background-color:  rgba(255, 242, 0, 0.829);
 }
