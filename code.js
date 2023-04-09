@@ -24,3 +24,12 @@ function calculate(){
 function clearAll (){
     showScreen.innerHTML = 0;
 }
+
+function clearLast(){
+    const x = showScreen.innerHTML
+    if(x.length == 1){
+        showScreen.innerHTML = 0;
+    }else{
+        showScreen.innerHTML = x.substring(0,x.length-1)
+    }
+}
