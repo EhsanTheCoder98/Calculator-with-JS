@@ -24,12 +24,3 @@ function calculate(){
 function clearAll (){
     showScreen.innerHTML = 0;
 }
- 
-function clearLast(){
-    let text = showScreen.innerHTML
-    if(text.length === 1){
-        showScreen.innerHTML = 0;
-    }else{
-        showScreen.innerHTML = text.substring(0 , text.length-1)
-    }
-}
