@@ -33,3 +33,13 @@ function clearLast(){
         showScreen.innerHTML = x.substring(0,x.length-1)
     }
 }
+
+const numbers = document.querySelectorAll(".numbers");
+numbers.forEach(function(button) {
+  button.addEventListener("click", function() {
+    button.classList.add("numberss");
+});
+  button.addEventListener("animationend",function(){
+    button.classList.remove("numberss");
+  })
+});

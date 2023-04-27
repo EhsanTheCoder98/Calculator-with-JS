@@ -43,6 +43,7 @@
     text-align: center;
     box-sizing: border-box;
     padding: 10px 0;
+    user-select: none;
 }
 .not{
     visibility: hidden;
@@ -55,4 +56,16 @@
 }
 .new{
    background-color:  rgba(255, 242, 0, 0.829);
+}
+.numberss{
+    animation: number 0.09s ease-out;
+}
+
+@keyframes number {
+    0%{
+        background-color: black ;
+    }
+    100%{
+        background-color: silver;
+    }
 }
